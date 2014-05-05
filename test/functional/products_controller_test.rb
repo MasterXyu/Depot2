@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ProductControllerTest<ActionController::TestCase
+class ProductsControllerTest < ActionController::TestCase
   setup do
     @product = products(:one)
     @update={
