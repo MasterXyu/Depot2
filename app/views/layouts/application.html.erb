@@ -6,9 +6,7 @@
                           "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
-  <!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+
 </head>
 <body>
  <div class="navbar navbar-fixed-top navbar-default">
@@ -25,7 +23,10 @@
 
        <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><%= link_to "Products", products_path %></li>
+          <li><%= link_to "Items", products_path %></li>
+          <li><%= link_to "Patients", '#' %></li>
+          <li><%= link_to "Medical offices", '#' %></li>
+          <li><%= link_to "Insurance Agents", '#' %></li>
           <li><%= link_to "Help",    '#' %></li>
           <li><%= link_to "Sign in", '#' %></li>
         </ul>
