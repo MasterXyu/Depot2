@@ -10,17 +10,17 @@ Product.delete_all
 Product.create(title:'Orthopedic car seat',
                description: %{<p>
                               The item that you get after car accident.</p>},
-               image_url:'carseat.jpg',
+               image_url:'Carseat.jpg',
                price:500 )
 
 Product.create(title:'Wrist orthosis custom fitted',
                description: %{<p>
                               The another one crazy-expensive item that you typically get after car accident.</p>},
-               image_url:'wrist_orthosis.jpg',
+               image_url:'wrist.jpeg',
                price:600 )
 
 Product.create(title:'Knee orthosis custom fitted',
                description: %{<p>
                               The tird one crazy-expensive item that you typically get after car accident.</p>},
-               image_url:'knee_orthosis.jpg',
+               image_url:'Knee_orthosis.png',
                price:800 )
