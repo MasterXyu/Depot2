@@ -1,0 +1,10 @@
+.table-hover>tbody>tr:hover>td {
+  background-color: #add8e6;
+  color: #000000;
+  border-collapse: separate;
+    border-spacing: 0 5px;
+    border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+
+}
+
