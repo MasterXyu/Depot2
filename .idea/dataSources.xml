@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="Rails Depot2: development" uuid="cb08b657-3535-45cc-a7eb-78f099f5b1c8">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\Administrator\RubymineProjects\Depot2\db\development.sqlite3</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails Depot2: test" uuid="5d6fab4e-5b73-4376-9030-d69d1035e4fe">
